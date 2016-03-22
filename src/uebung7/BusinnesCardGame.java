@@ -3,13 +3,13 @@ package uebung7;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Game {
+public class BusinnesCardGame {
 
     public static String readInput(String query) {
         String input = "";
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
-        System.out.print(query);  // abgeändert, sodass ein Zeilenumbruch passiert
+        System.out.print(query);
 
         try {
             input = br.readLine();
