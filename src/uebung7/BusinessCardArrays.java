@@ -1,4 +1,4 @@
-package uebung8;
+package uebung7;
 
 public class BusinessCardArrays {
 

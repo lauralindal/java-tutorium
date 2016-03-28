@@ -1,7 +1,7 @@
 package uebung1;
 
 // This is the first 'package' we open. It is a class with the name "BasicInfo".
-public class BasicInforVariables {
+public class BasicInfoVariables {
 
     // This is the 'main' method. Everything starts from here.
     public static void main(String[] args) {

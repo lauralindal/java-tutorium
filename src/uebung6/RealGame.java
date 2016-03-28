@@ -1,4 +1,4 @@
-package uebung7;
+package uebung6;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package uebung7;
+package uebung6;
 
 // We need to import two classes in order to read the input that the User will give us in the console.
 import java.io.BufferedReader;
