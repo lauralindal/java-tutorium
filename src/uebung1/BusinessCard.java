@@ -26,9 +26,9 @@ public class BusinessCard {
                 Ändere die main Methode dann so ab, dass die Variablen in dem Output genutzt werden.
 */
 
-//  Aufgabe 3: Die Zeile mit dem Kaffee gibt noch nicht ganz das gleiche aus. Nutze ein if/else, um auszugeben, ob die Person Kaffee mag oder nicht.
+//  Aufgabe 3: Die Zeile mit dem Kaffee gibt noch nicht ganz das Gewünschte aus. Nutze ein if/else statement, um auszugeben, ob die Person Kaffee mag oder nicht.
 
-//  Aufgabe 4: Ersetze die erste und letzte Zeile mit einem loop. Welche Zeile könntest du ebenso ersetzen?
+//  Aufgabe 4: Ersetze die erste und letzte Zeile mit einem loop, der viele Bindestriche hintereinander aus'druckt'. Welche Zeile könntest du ebenso ersetzen?
 
 /*
     Aufgabe 5: Lagere das Ausgeben der ersten und letzten Zeile in eine Funktion aus.
