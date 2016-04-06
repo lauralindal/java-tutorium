@@ -9,7 +9,7 @@ public class BusinessCardIfStatement {
         int streetNumber = 75;
         double distance = 7.60;
         boolean likesCoffee = true;
-        String likesTea = "I like tea!";
+        //String likesTea = "I like tea!";
 
         // These following lines are printed out to the console. After each line, there is a line break.
         System.out.println("+----------------------------+");
@@ -26,6 +26,6 @@ public class BusinessCardIfStatement {
             System.out.println("| Kaffee ist meh             |");
 
         System.out.println("+----------------------------+");
-        System.out.println(likesTea);
+        //System.out.println(likesTea);
     }
 }

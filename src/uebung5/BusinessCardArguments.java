@@ -32,7 +32,7 @@ public class BusinessCardArguments {
         System.out.println( "| Wilhelminenhofstr. 75A     |" );
         System.out.println( "| 7.6 km Arbeitsweg          |" );
         System.out.println( "| mag Kaffee                 |" );
-        // Call the function printManyHyphens and tell it to pass on the contents of amountOfHyphen
+        // Call the function printManyHyphens and tell it to pass on the contents of the variable amountOfHyphen
         printManyHyphens(amountOfHyphen);
     }
 }

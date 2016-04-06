@@ -9,7 +9,7 @@ public class BusinessCardLoops {
         // These following lines are printed out to the console. After each line, there is a line break.
 
         // This is a for loop
-        for (int i = 0; i < amountOfHyphen; i++){
+        for (int zaehler = 0; zaehler < amountOfHyphen; zaehler++){
             System.out.print("-");
         }
         System.out.println(); // This line is needed for the line break after the loop.

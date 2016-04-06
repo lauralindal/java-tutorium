@@ -14,7 +14,7 @@ public class BusinessCardVariables {
         // Create a variable with the type double and give it a description/name. Assign the distance from your home to your workplace to it.
         double distance = 7.60;
         // Create a variable with the type boolean and give it a description/name. Assign to it whether you like coffee or not.
-        boolean likesCoffee = true;
+        boolean likesCoffee = false;
 
         // These following lines are printed out to the console. After each line, there is a line break.
         System.out.println("+----------------------------+");

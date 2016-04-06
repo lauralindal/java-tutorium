@@ -19,24 +19,31 @@ public class RealGame {
         return input;
     }
 
+    public static void firstRoom(){
+        System.out.println("You're standing in a dark room. There are two doors in front of you. The one to the left appears to glitter. Behind the other door, you can hear music.");
+    }
+
     public static void main(String[] args){
 
         String name = readInput("Hi there! What is your first name? > ");
         String choice = readInput("Hi " + name + ", would you like to play a game? > ");
 
-        if (choice.equals("yes")){
-            System.out.println("Cool. I will have to think of something now...");
-        }
-        else if (choice.equals("no")){
-            System.out.println("That's okay. Have a good day then!");
-        }
-        else {
-            System.out.println("Please type either 'yes' or 'no' > ");
+        while(true){
+            if (choice.equals("yes")) {
+                System.out.println("Cool. I will have to think of something now...");
+                firstRoom();
+                break;
+            } else if (choice.equals("no")) {
+                System.out.println("That's okay. Have a good day then!");
+                break;
+            } else {
+                System.out.println("I don't understand.");
+                choice = readInput("Please type either 'yes' or 'no' > ");
+            }
         }
 
         // Denke dir nun aus, was weiter passieren kann!
 
-        System.out.println("Thank you for playing, " + name +"!");
-        System.out.println();
+
     }
 }

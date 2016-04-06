@@ -4,7 +4,7 @@ package uebung6;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class BusinnesCardGame {
+public class BusinessCardGame {
 
     public static String readInput(String query) {
         String input = "";
@@ -35,14 +35,17 @@ public class BusinnesCardGame {
 
         String name = readInput("Hi there! Let's print your Business Card! What is your full name? > ");
         String studyProgramme = readInput("Hi " + name + ", and what is you Study Programme? > ");
-        String address  = readInput("And what is you adddress? > ");
+        String address  = readInput("And what is your adddress? > ");
         String distanceToWork = readInput("How far away is your workplace? > ");
-        String favoriteDrink = readInput("One last questions: What is your favorite non-alcoholic drink? > ");
+        String favoriteDrink = readInput("One last question: What is your favorite non-alcoholic drink? > ");
 
         System.out.println("Thank you " + name + "! Here is your Business Card:");
         System.out.println();
 
         printBusinessCard(name, studyProgramme, address, distanceToWork, favoriteDrink);
+
+
+
     }
 
 }

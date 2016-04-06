@@ -4,6 +4,9 @@ Java Tutorium @ htw Berlin (SoSe 2016)
 In diesem Repo findet ihr verschiedene Aufgaben, die aufeinander aufbauen und euch Spaß am Programmieren bereiten sollen.
 Wir fangen bei den Basics an.
 
+Außerdem findet ihr unter "basics01" auch eine Metapher, die das Programmieren mit dem Käsebrotschmieren vergleicht (basierend auf dem Beispiel aus https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/Programmieren-ist-wie-Brot-schneiden,ideenexpo1458.html).
+Die Metapher ist noch nicht ganz ausgereift, aber ich hoffe, dass sie euch helfen kann, eine grobe Idee von verschiedenen Konzepten zu gewinnen.
+
 Inhalte der Übungen
 ------------------------------------------
 
